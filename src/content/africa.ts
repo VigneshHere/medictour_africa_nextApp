@@ -12,7 +12,7 @@ import {
 } from "@/types/sections";
 
 /* ======================================================
-   HERO
+   HERO SECTION
 ====================================================== */
 
 export const africaHero: HeroSectionData = {
@@ -20,16 +20,20 @@ export const africaHero: HeroSectionData = {
   subtitle: "From first opinion to recovery",
   description:
     "Expert medical care in India — trusted by patients across Africa for seamless support from initial consultation to full recovery.",
+
   bullets: [
     "No middlemen, no hidden fees",
     "English-speaking care coordinators",
     "Comprehensive, end-to-end support",
   ],
+
   imageSrc: "/images/hero/africa.png",
+
   primaryCTA: {
     label: "WhatsApp – Get Medical Guidance",
-    href: "https://wa.me/919895332222",
+    href: "https://wa.me/919895332222?text=Hi%2C%20I%27m%20from%20Africa%20and%20looking%20for%20medical%20guidance.",
   },
+
   secondaryCTA: {
     label: "Talk to our care team",
     href: "tel:+919895332222",
@@ -37,140 +41,210 @@ export const africaHero: HeroSectionData = {
 };
 
 /* ======================================================
-   PROBLEMS
+   COUNTRY PROBLEMS
 ====================================================== */
 
 export const africaProblems: CountryProblemsSectionData = {
   heading: "Healthcare challenges many patients in Africa face today",
+
   description:
-    "Accessing timely, affordable, and trusted medical care remains difficult for many patients.",
+    "Accessing timely, affordable, and trusted medical care remains difficult for many patients — especially when advanced treatment or specialist opinions are required.",
+
   items: [
-    { text: "Long waiting times for essential procedures", icon: "waiting" },
-    { text: "Limited access to specialised treatments", icon: "limited-access" },
-    { text: "High costs for overseas care", icon: "high-cost" },
-    { text: "Uncertainty about whom to trust", icon: "uncertainty" },
+    {
+      text: "Long waiting times for essential medical procedures",
+      icon: "waiting",
+    },
+    {
+      text: "Limited access to advanced or specialised treatments",
+      icon: "limited-access",
+    },
+    {
+      text: "High costs when seeking treatment outside the country",
+      icon: "high-cost",
+    },
+    {
+      text: "Uncertainty about where to go and whom to trust",
+      icon: "uncertainty",
+    },
   ],
 };
 
+
 /* ======================================================
-   WHY INDIA
+   WHY INDIA – AUTHORITY SECTION
 ====================================================== */
 
 export const africaWhyIndia: CountrySolutionSectionData = {
   heading: "Why patients from Africa consider treatment in India",
   subline:
-    "Clinical experience, infrastructure quality, and clear communication.",
+    "Practical medical reasons based on clinical experience, infrastructure, safety standards, and patient communication.",
+
   pillars: [
     {
       icon: "experience",
-      title: "Experienced specialists",
+      title: "Faster access to experienced medical specialists",
       description:
-        "High-volume specialists across complex medical disciplines.",
+        "High-volume specialists with extensive exposure to complex and high-risk medical conditions across multiple specialties.",
     },
     {
       icon: "infrastructure",
-      title: "Advanced hospital infrastructure",
+      title: "Hospitals equipped for complex and advanced procedures",
       description:
-        "Modern diagnostics, surgical systems, and care teams.",
+        "Hospitals equipped with advanced diagnostics, modern surgical systems, and multidisciplinary care teams.",
     },
     {
       icon: "safety",
-      title: "International safety standards",
+      title: "Treatment protocols aligned with international standards",
       description:
-        "Globally aligned treatment and governance protocols.",
+        "Treatment protocols aligned with internationally recognised safety, quality, and clinical governance benchmarks.",
     },
     {
       icon: "communication",
-      title: "Clear English communication",
+      title: "English-speaking medical teams and clear communication",
       description:
-        "Transparent discussions on diagnosis, risk, and recovery.",
+        "English-speaking medical teams ensuring clarity in diagnosis, treatment planning, risks, and recovery.",
     },
   ],
-  points: [],
+
+
+  points: [
+    {
+      title: "Faster access to experienced medical specialists",
+      description:
+        "Patients often face long waiting periods for specialist consultations and procedures. In India, hospitals operate with dedicated teams that allow quicker evaluations and timely treatment decisions.",
+    },
+    {
+      title: "Hospitals equipped for complex and advanced procedures",
+      description:
+        "India has hospitals that routinely perform high-volume, advanced procedures across cardiology, oncology, orthopaedics, neurology, and transplant medicine.",
+    },
+    {
+      title: "Treatment protocols aligned with international standards",
+      description:
+        "Medical care in India follows globally recognised protocols supported by modern diagnostics, surgical infrastructure, and multidisciplinary teams.",
+    },
+    {
+      title: "English-speaking medical teams and clear communication",
+      description:
+        "Doctors and care coordinators communicate clearly in English, helping patients and families understand diagnoses, options, risks, and recovery plans.",
+    },
+  ],
 };
 
-/* ======================================================
-   CARE SUPPORTED
-====================================================== */
+
+
 
 export const africaCareSupported: CareSupportedSectionData = {
   heading: "Medical care supported through MedicTour",
   subline:
-    "Care is recommended based on medical need, not hospital promotion.",
+    "Care is recommended based on medical condition, required expertise, and safety considerations — not hospital promotion.",
+
   categories: [
     {
       title: "Surgical and interventional care",
-      items: ["Heart care", "Orthopaedics", "Neurosurgery"],
+      items: [
+        "Heart and vascular care",
+        "Orthopaedics and joint replacement",
+        "Neurosurgery",
+      ],
     },
     {
       title: "Medical and long-term care",
-      items: ["Cancer care", "Neurology", "Renal care"],
+      items: [
+        "Cancer care",
+        "Neurology",
+        "Kidney and renal care",
+      ],
     },
     {
-      title: "Advanced procedures",
-      items: ["Transplants", "High-risk procedures"],
+      title: "Advanced and complex procedures",
+      items: [
+        "Transplant-related care",
+        "High-risk and multi-disciplinary procedures",
+        "Specialised medical interventions",
+      ],
     },
   ],
+
+  note:
+    "Treatment recommendations are based on medical evaluation and expert review.",
 };
 
+
 /* ======================================================
-   JOURNEY
+   Journey Section
 ====================================================== */
+
 
 export const africaJourney: JourneySectionData = {
   heading: "Your medical journey, guided with care",
+  subline:
+    "From initial medical review to recovery support, each step is carefully guided with safety, clarity, and medical expertise.",
+
   steps: [
     {
       step: 1,
       title: "Initial medical review",
       description:
-        "Share medical reports for assessment and guidance.",
+        "You share your medical reports for an initial assessment and guidance.",
     },
     {
       step: 2,
       title: "Care matching",
       description:
-        "Specialist and treatment identification.",
+        "We help identify appropriate expertise and treatment options based on your condition.",
     },
     {
       step: 3,
-      title: "Travel & treatment coordination",
+      title: "Travel and treatment coordination",
       description:
-        "Hospital scheduling and on-ground support.",
+        "Support with hospital coordination, scheduling, and on-ground assistance in India.",
     },
     {
       step: 4,
-      title: "Recovery support",
+      title: "Follow-up and recovery support",
       description:
-        "Post-treatment guidance and follow-up.",
+        "Continued guidance during recovery and after you return home.",
     },
   ],
+
+  note:
+    "Treatment recommendations are based on medical evaluation and expert review.",
 };
 
+
+
 /* ======================================================
-   CARE PRINCIPLES
+   CARE NOT HOSPITALS SECTION
 ====================================================== */
+
+
 
 export const africaCarePrinciples: CarePrincipleSectionData = {
   heading: "We recommend care, not hospitals",
+  subline:
+    "Our recommendations focus on the best care for your condition, not just on hospital affiliations.",
+
   points: [
     {
       title: "Based on your medical condition",
       description:
-        "Decisions based on clinical evaluation.",
+        "Recommendations are based on thorough evaluation of your medical reports and needs.",
     },
     {
-      title: "Matched to expertise and technology",
+      title: "Matched to required expertise and technology",
       description:
-        "Right doctor, right tools.",
+        "We identify the most suitable specialists and advanced technology for your treatment.",
     },
     {
-      title: "Recovery and urgency considered",
+      title: "Consideration of urgency and recovery needs",
       description:
-        "Plans adapted to patient needs.",
+        "Treatment plans take into account the urgency of your condition and your recovery requirements.",
     },
   ],
 };
+
 
 /* ======================================================
    ETHICS  ✅ FINAL, SINGLE SOURCE
